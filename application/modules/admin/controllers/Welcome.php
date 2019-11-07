@@ -78,7 +78,7 @@ class Welcome extends MY_Controller {
 		$this->template->sample_template($data);
 	}
 
-	function dangky() {
-		$this->load->view('dangky');
-	}
+	// function dangky() {
+	// 	$this->load->view('dangky');
+	// }
 }

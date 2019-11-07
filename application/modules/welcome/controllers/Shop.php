@@ -44,7 +44,6 @@
 
         public function remove() {
             $id = $this->uri->segment('2');
-            // var_dump($id);die();
             if ($id===NULL)
                 {
                     $this->cart->destroy();
